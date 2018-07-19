@@ -10,4 +10,8 @@
 
 @interface Vehicle : NSObject
 
+@property double currentSpeed;
+
+- (void)makeNoise;
+
 @end

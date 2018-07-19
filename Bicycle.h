@@ -10,4 +10,7 @@
 
 @interface Bicycle : Vehicle
 
+@property BOOL hasBasket;
+
+
 @end

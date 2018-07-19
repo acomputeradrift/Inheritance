@@ -10,4 +10,8 @@
 
 @implementation Train
 
+- (void)makeNoise
+{
+    NSLog(@"Choo Choo");
+}
 @end

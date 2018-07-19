@@ -10,4 +10,16 @@
 
 @implementation Vehicle
 
+- (NSString*) description
+{
+   return [NSString stringWithFormat:@"traveling at %f miles per hour", self.currentSpeed];
+}
+
+- (void)makeNoise
+{
+    
+}
+
+
+
 @end

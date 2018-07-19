@@ -10,4 +10,6 @@
 
 @interface Train : Vehicle
 
+- (void)makeNoise;
+
 @end

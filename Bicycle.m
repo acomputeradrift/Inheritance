@@ -10,4 +10,16 @@
 
 @implementation Bicycle
 
+- (void)makeNoise
+{
+    NSLog(@"Ding Dong");
+}
+
+- (NSString*) description
+{
+if (self.hasBasket) {
+    return [NSString stringWithFormat:@"traveling at %f miles per hour with a basket", self.currentSpeed];
+}
+return [super description];
+}
 @end
