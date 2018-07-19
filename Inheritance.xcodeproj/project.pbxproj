@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7DE3D64121011195004938BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3D64021011195004938BC /* main.m */; };
+		7DE3D6492101125E004938BC /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3D6482101125E004938BC /* Vehicle.m */; };
+		7DE3D64C21011274004938BC /* Train.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3D64B21011274004938BC /* Train.m */; };
+		7DE3D64F2101128B004938BC /* Bicycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3D64E2101128B004938BC /* Bicycle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		7DE3D63D21011195004938BC /* Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE3D64021011195004938BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DE3D6472101125E004938BC /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		7DE3D6482101125E004938BC /* Vehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		7DE3D64A21011274004938BC /* Train.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Train.h; sourceTree = "<group>"; };
+		7DE3D64B21011274004938BC /* Train.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Train.m; sourceTree = "<group>"; };
+		7DE3D64D2101128B004938BC /* Bicycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bicycle.h; sourceTree = "<group>"; };
+		7DE3D64E2101128B004938BC /* Bicycle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bicycle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,12 @@
 		7DE3D63421011195004938BC = {
 			isa = PBXGroup;
 			children = (
+				7DE3D6472101125E004938BC /* Vehicle.h */,
+				7DE3D6482101125E004938BC /* Vehicle.m */,
+				7DE3D64A21011274004938BC /* Train.h */,
+				7DE3D64B21011274004938BC /* Train.m */,
+				7DE3D64D2101128B004938BC /* Bicycle.h */,
+				7DE3D64E2101128B004938BC /* Bicycle.m */,
 				7DE3D63F21011195004938BC /* Inheritance */,
 				7DE3D63E21011195004938BC /* Products */,
 			);
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE3D64C21011274004938BC /* Train.m in Sources */,
+				7DE3D6492101125E004938BC /* Vehicle.m in Sources */,
 				7DE3D64121011195004938BC /* main.m in Sources */,
+				7DE3D64F2101128B004938BC /* Bicycle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
